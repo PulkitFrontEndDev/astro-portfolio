@@ -175,16 +175,16 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"work": {
-"nested/british-airways.md": {
-	id: "nested/british-airways.md";
-  slug: "nested/british-airways";
+"british-airways.md": {
+	id: "british-airways.md";
+  slug: "british-airways";
   body: string;
   collection: "work";
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
-"pink-salon.md": {
-	id: "pink-salon.md";
-  slug: "pink-salon";
+"nested/pink-salon.md": {
+	id: "nested/pink-salon.md";
+  slug: "nested/pink-salon";
   body: string;
   collection: "work";
   data: InferEntrySchema<"work">
